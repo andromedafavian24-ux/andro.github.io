@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Vespa Second Cinyis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #0b1a19;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(11, 26, 25, 0.8), rgba(0, 77, 77, 0.7)), 
+                        url('Vespa/vespa excel.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #e0f7f6;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.9);
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #a3e4d7;
+            margin-bottom: 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: 2px solid #008b8b;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: #008b8b;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #006666;
+            border-color: #006666;
+            box-shadow: 0 0 15px rgba(0, 139, 139, 0.6);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: #a3e4d7;
+            border-color: #a3e4d7;
+        }
+
+        .btn-secondary:hover {
+            background-color: #a3e4d7;
+            color: #0b1a19;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 2rem; }
+            .hero-content p { font-size: 0.9rem; }
+            .btn { width: 100%; padding: 12px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>KLASIK & ISTIMEWA<br>VESPA SECOND CINYIS</h1>
+            <p>KOLEKSI VESPA SECOND PALING MULUS, TERPERCAYA, DAN SIAP PAKAI</p>
+            <div class="cta-buttons">
+                <!-- a href menuju ke Products.html -->
+               
+                <a href="Products.html" target="konten" class="btn btn-secondary">JELAJAHI KOLEKSI</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
